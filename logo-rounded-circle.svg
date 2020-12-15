@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.729" cy="0.935" r="0.994" gradientTransform="translate(0.244 2.018) rotate(-117.907)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.916" stop-color="#f4f4f4"/>
+      <stop offset="1" stop-color="#ebeaea"/>
+    </radialGradient>
+    <filter id="Path_340" x="-1" y="-1" width="803" height="803" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#fff" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#393939"/>
+      <stop offset="1" stop-color="#070707"/>
+    </linearGradient>
+    <filter id="Union_1" x="258" y="187" width="283.25" height="426.498" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur result="blur-2"/>
+      <feFlood flood-color="#fff" flood-opacity="0.89"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-rewards_1">
+      <rect width="800" height="800"/>
+    </clipPath>
+  </defs>
+  <g id="rewards_1" data-name="rewards – 1" clip-path="url(#clip-rewards_1)">
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_340)">
+      <path id="Path_340-2" data-name="Path 340" d="M392.5,0C609.272,0,785,175.728,785,392.5S609.272,785,392.5,785,0,609.272,0,392.5,175.728,0,392.5,0Z" transform="translate(8 8)" fill="url(#radial-gradient)"/>
+    </g>
+    <g id="Group_302" data-name="Group 302" transform="translate(129.303 -340.789)">
+      <g transform="matrix(1, 0, 0, 1, -129.3, 340.79)" filter="url(#Union_1)">
+        <path id="Union_1-2" data-name="Union 1" d="M-6829.539-3750.742c-12.444-.059-21.146-8.732-21.161-21.224q-.078-46.377-.016-92.759h.094q0-46.756,0-93.519a18.284,18.284,0,0,1,2.817-9.586c30.27-50.737,59.675-101.978,89.338-153.067,8.963-15.434,17.83-30.925,26.847-46.327,5.7-9.726,15.606-12.587,25.681-7.53,7.972,4,16.074,7.8,23.786,12.268,12.713,7.363,15.418,18.1,8.05,30.728q-36.68,62.86-73.473,125.66c-9.136,15.627-18.219,31.286-27.41,46.882a21.142,21.142,0,0,0-2.871,11.142q.073,87.838.028,175.677c0,10.813-5.905,18.693-15.828,21.152a18.938,18.938,0,0,1-4.481.49q-9.027.038-18.052.041Q-6822.864-3750.713-6829.539-3750.742Zm-81.1-340.554A42.757,42.757,0,0,1-6953.3-4134.2a42.773,42.773,0,0,1,43.074-42.5,42.52,42.52,0,0,1,42.356,43.1,42.53,42.53,0,0,1-42.606,42.307Z" transform="translate(7211.3 4364.21)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>
